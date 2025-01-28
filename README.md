@@ -44,6 +44,7 @@ Dataset: https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/dat
   2. Numpy: For numerical operations.<br>
   3. Matplotlib and Seaborn: For data visualization.
 </p>
+
 <h3><u>Project Objective</u></h3>
 <p>
   1. Understand the dataset and clean the data from noise.<br>
