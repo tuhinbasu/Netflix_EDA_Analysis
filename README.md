@@ -1,7 +1,10 @@
 <div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2></div>
 
-![image](https://github.com/user-attachments/assets/4e3e8c2f-dc24-4247-8dc7-a8910418edbc)
+<div align = "center>
+ 
+  ![image](https://github.com/user-attachments/assets/4e3e8c2f-dc24-4247-8dc7-a8910418edbc)
 
+</div>
 <h3>Project Overview</h3>
 <p>
   This project aims to perform in-depth Exploratory Data analysis on the Netflix dataset.
@@ -55,13 +58,30 @@ Dataset: https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/dat
 4. Identify the top-performing categories on Netflix.
 </p>
 
+<h3>Key Analysis Performed</h3>
+<p>
+  1. Correlation Analysis<br>
+  - Analyzed the correlation among the specified columns: [Current_Rank, YTD, Last_Week_Rank, Days_Seeded, and Viewership_Score].<br>
+  2. Average Viewership Analysis<br>
+  - Analyzed the overall average viewership score compared to title types.<br>
+  - Analyzed the average viewership score for exclusive content produced by Netflix.<br>
+  - Analyze the average viewership score for non-exclusive content on Netflix.<br>
+  3. Analyzed the exclusive and non-exclusive content<br>
+  4. Performed analysis on exclusive content<br>
+  - Count all the exclusive content in each type.<br>
+  - Identify the top 10 TV shows produced by Netflix.<br>
+  - Identify the top 10 movies produced by Netflix.<br>
+  - Identify the top 10 stand-up comedy shows produced by Netflix.<br>
+</p>
+
 <h3>Conclusions</h3>
 <p>
-1. An increase in viewership scores ensures that content ranks in the top 10. Overall, TV shows on Netflix are much more popular compared to other types of content.<br>
-2. The trend is similar for exclusive and non-exclusive TV shows, which remain popular. Netflix does not host non-exclusive Concert/Performance or Stand-Up Comedy content on its platform (or this data is missing).<br>
-3. Non-exclusive TV shows perform better than TV shows produced by Netflix.<br>
-4. Netflix hosts more non-exclusive content than exclusive content on its platform.<br>
-5. Among the exclusive content:<br>
+1. An increase in viewership scores ensures that content ranks in the top 10.<br>
+2. Overall, TV shows on Netflix are much more popular compared to other types of content.<br>
+3. The trend is similar for exclusive and non-exclusive TV shows, which remain popular. Netflix does not host non-exclusive Concert/Performance or Stand-Up Comedy content on its platform (or this data is missing).<br>
+4. Non-exclusive TV shows perform better than TV shows produced by Netflix.<br>
+5. Netflix hosts more non-exclusive content than exclusive content on its platform.<br>
+6. Among the exclusive content:<br>
   * TV Show: Ozark <br>
   * Movie: The Mitchells vs. The Machines<br>
   * Stand-Up Comedy: Dave Chappelle: The Closer<br>
