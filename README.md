@@ -1,10 +1,7 @@
 <div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2></div>
-
-<div align = "center>
  
   ![image](https://github.com/user-attachments/assets/4e3e8c2f-dc24-4247-8dc7-a8910418edbc)
 
-</div>
 <h3>Project Overview</h3>
 <p>
   This project aims to perform in-depth Exploratory Data analysis on the Netflix dataset.
