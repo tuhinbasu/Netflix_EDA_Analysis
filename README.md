@@ -1,7 +1,8 @@
-<div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2></div>
+<div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2>
  
   ![image](https://github.com/user-attachments/assets/4e3e8c2f-dc24-4247-8dc7-a8910418edbc)
 
+</div>
 <h3>Project Overview</h3>
 <p>
   This project aims to perform in-depth Exploratory Data analysis on the Netflix dataset.
@@ -38,13 +39,14 @@
   <li>
   Viewership Score: It is calculated by dividing the total time spent watching a series or movie in a given week by the running time of the title.
   </li>
-Dataset: https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/data
+ Dataset: https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/data
 </p>
+
 <h2>Libraries Used</h2>
 <p>
   1. Pandas: For handling and analyzing data.<br>
   2. Numpy: For numerical operations.<br>
-  3. Matplotlib and Seaborn: For data visualization.
+  3. Matplotlib and Seaborn: For data visualization.<br>
 </p>
 
 <h3>Project Objectives</h3>
