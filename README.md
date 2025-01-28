@@ -38,22 +38,33 @@
   </li>
 Dataset: https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/data
 </p>
-<h2><u>Libraries Used</u></h2>
+<h2>Libraries Used</h2>
 <p>
   1. Pandas: For handling and analyzing data.<br>
   2. Numpy: For numerical operations.<br>
   3. Matplotlib and Seaborn: For data visualization.
 </p>
 
-<h3><u>Project Objective</u></h3>
+<h3>Project Objectives</h3>
 <p>
-  1. Understand the dataset and clean the data from noise.<br>
-  2. Check for any relationship between the variables.<br>
-  3. Perform viewership analysis, and analyze how exclusive and non-exclusive content perform on the platform <br>
-  4. Identify the top-performing categories in the platform.<br>
+1. Explore and clean the dataset to remove any noise or inconsistencies.
+2. Analyze the relationships between different variables in the dataset.
+3. Conduct a viewership analysis to compare the performance of exclusive and non-exclusive content on the platform.
+4. Identify the top-performing categories on Netflix.
 </p>
 
-
+<h3>Conclusions</h3>
+<p>
+1. An increase in viewership scores ensures that content ranks in the top 10. Overall, TV shows on Netflix are much more popular compared to other types of content.<br>
+2. The trend is similar for exclusive and non-exclusive TV shows, which remain popular. Netflix does not host non-exclusive Concert/Performance or Stand-Up Comedy content on its platform (or this data is missing).<br>
+3. Non-exclusive TV shows perform better than TV shows produced by Netflix.<br>
+4. Netflix hosts more non-exclusive content than exclusive content on its platform.<br>
+5. Among the exclusive content:<br>
+  * TV Show: Ozark <br>
+  * Movie: The Mitchells vs. The Machines<br>
+  * Stand-Up Comedy: Dave Chappelle: The Closer<br>
+  have performed exceptionally well and remained top-seeded for a long time, respectively.
+</p>
 
 
 
