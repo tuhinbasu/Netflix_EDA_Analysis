@@ -1,4 +1,4 @@
-<div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2>
+<div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2></div>
 
 <h3><u>Project Overview</u></h3>
 <p>
