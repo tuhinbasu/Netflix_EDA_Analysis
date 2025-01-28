@@ -7,15 +7,33 @@
 <h3><u>Dataset Overview</u></h3>
 <p>
   <li>
-  - **As Of**: The date the ranking data was recorded.
+  **As Of**: The date the ranking data was recorded.
+  </li>
+  <li>
   - **Rank**: The current rank of the title in the Netflix top 10
+  </li>
+  <li>
   - **Year to Date Rank**: The title's rank across all content for the year.
+  </li>
+  <li>
   - **Last Week Rank**: The title's rank in the previous week's top 10.
+  </li>
+  <li>
   - **Title**: The name of the movie or TV show.
+  </li>
+  <li>
   - **Type**: Indicates whether the content is a *Movie* or a *TV Show*.
+  </li>
+  <li>
   - **Netflix Exclusive**: Specifies whether the title is exclusive to Netflix (*Yes* or *Nan*).
+  </li>
+  <li>
   - **Netflix Release Date**: The date the title was released on Netflix.
+  </li>
+  <li>
   - **Days In Top 10**: The total number of days the title has appeared in the top 10 rankings.
+  </li>
+  <li>
   - **Viewership Score**: It is calculated by dividing the total time spent wathching a series or movie in a given week by the running time of the title.
-    </li>
+  </li>
 </p>
