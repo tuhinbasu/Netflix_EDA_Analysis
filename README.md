@@ -1,111 +1,120 @@
-<div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2>
- 
-  ![image](https://github.com/user-attachments/assets/57a9cd7b-29b2-4f5a-b557-784ed55d625c)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Top 10: EDA and Analysis</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6;">
 
-</div>
-<h3>Project Overview</h3>
-<p>
-  This project aims to perform in-depth Exploratory Data analysis on the Netflix dataset.
-</p>
-<h3><u>Dataset Overview and Definition</u></h3>
-<p>
-  <li>
-  As Of: The date the ranking data was recorded.
-  </li>
-  <li>
-  Rank: The current rank of the title in the Netflix top 10
-  </li>
-  <li>
-  Year to Date Rank: The title's rank across all content for the year.
-  </li>
-  <li>
-  Last Week Rank: The title's rank in the previous week's top 10.
-  </li>
-  <li>
-  Title: The name of the movie or TV show.
-  </li>
-  <li>
-  Type: Indicates whether the content is a *Movie* or a *TV Show*.
-  </li>
-  <li>
-  Netflix Exclusive: Specifies whether the title is exclusive to Netflix (*Yes* or *Nan*).
-  </li>
-  <li>
-  Netflix Release Date: The date the title was released on Netflix.
-  </li>
-  <li>
-  Days In Top 10: The total number of days the title has appeared in the top 10 rankings.
-  </li>
-  <li>
-  Viewership Score: It is calculated by dividing the total time spent watching a series or movie in a given week by the running time of the title.
-  </li>
- Dataset: https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/data
-</p>
+  <div align="center">
+    <h1 style="font-size: 2.5em; text-decoration: underline;">Netflix Top 10: EDA and Analysis</h1>
+    <img src="https://github.com/user-attachments/assets/57a9cd7b-29b2-4f5a-b557-784ed55d625c" alt="Netflix Analysis Banner" style="width: 80%; max-width: 600px; margin-top: 20px;">
+  </div>
 
-<h2>Libraries Used</h2>
-<p>
-  1. Pandas: For handling and analyzing data.<br>
-  2. Numpy: For numerical operations.<br>
-  3. Matplotlib and Seaborn: For data visualization.<br>
-</p>
+  <hr style="margin: 20px 0;">
 
-<h3>Project Objectives</h3>
-<p>
-1. Explore and clean the dataset to remove any noise or inconsistencies.
-2. Analyze the relationships between different variables in the dataset.
-3. Conduct a viewership analysis to compare the performance of exclusive and non-exclusive content on the platform.
-4. Identify the top-performing categories on Netflix.
-</p>
+  <section>
+    <h2 style="color: #2c3e50;">Project Overview</h2>
+    <p>
+      This project aims to conduct an in-depth Exploratory Data Analysis (EDA) on Netflix's daily Top 10 dataset to uncover trends, insights, and patterns that shape viewership on the platform.
+    </p>
+  </section>
 
-<h3>Key Analysis Performed</h3>
-<p>
-  1. Correlation Analysis<br>
-  - Analyzed the correlation among the specified columns: [Current_Rank, YTD, Last_Week_Rank, Days_Seeded, and Viewership_Score].<br>
- 
- ![image](https://github.com/user-attachments/assets/abe26b62-95a6-4b72-a38d-3f0e0722608a)
+  <hr style="margin: 20px 0;">
 
-  2. Average Viewership Analysis<br>
-  - Analyzed the overall average viewership score compared to title types.<br>
-  
-  ![image](https://github.com/user-attachments/assets/580c4475-71e0-410a-848f-cc91189f9b94)
+  <section>
+    <h2 style="color: #2c3e50;">Dataset Overview and Definitions</h2>
+    <p>This dataset contains detailed information about the top 10 Netflix titles, including movies, TV shows, and other content types. Below are the key attributes:</p>
+    <ul>
+      <li><strong>As Of:</strong> The date when the ranking data was recorded.</li>
+      <li><strong>Rank:</strong> The title's current rank in the Netflix Top 10.</li>
+      <li><strong>Year to Date Rank:</strong> The rank of the title among all Netflix content for the year.</li>
+      <li><strong>Last Week Rank:</strong> The title's rank in the previous week's Top 10.</li>
+      <li><strong>Title:</strong> The name of the movie or TV show.</li>
+      <li><strong>Type:</strong> Specifies whether the content is a <em>Movie</em> or a <em>TV Show</em>.</li>
+      <li><strong>Netflix Exclusive:</strong> Indicates whether the title is exclusive to Netflix (<em>Yes</em> or <em>NaN</em>).</li>
+      <li><strong>Netflix Release Date:</strong> The date the title was released on Netflix.</li>
+      <li><strong>Days in Top 10:</strong> The total number of days the title has appeared in the Top 10 rankings.</li>
+      <li><strong>Viewership Score:</strong> Calculated by dividing the total time spent watching a title in a given week by its running time.</li>
+    </ul>
+    <p><strong>Dataset Source:</strong> <a href="https://www.kaggle.com/datasets/prasertk/netflix-daily-top-10-in-us/data" target="_blank">Netflix Daily Top 10 in US</a></p>
+  </section>
 
-  - Analyzed the average viewership score for exclusive content produced by Netflix.<br>
- 
-  ![image](https://github.com/user-attachments/assets/16345d73-961c-4b95-905e-7f923755a997)
+  <hr style="margin: 20px 0;">
 
-  - Analyze the average viewership score for non-exclusive content on Netflix.<br>
- 
-  ![image](https://github.com/user-attachments/assets/8cc59802-03fb-4a49-a7e8-c6ab1f8101cd)
+  <section>
+    <h2 style="color: #2c3e50;">Libraries Used</h2>
+    <ul>
+      <li><strong>Pandas:</strong> For handling and analyzing data.</li>
+      <li><strong>NumPy:</strong> For numerical operations.</li>
+      <li><strong>Matplotlib and Seaborn:</strong> For data visualization.</li>
+    </ul>
+  </section>
 
-  3. Analyzed the exclusive and non-exclusive content<br>
-  
-  ![image](https://github.com/user-attachments/assets/fd678dcd-3611-452c-843c-48037ece7284)
+  <hr style="margin: 20px 0;">
 
-  ![image](https://github.com/user-attachments/assets/3c672151-3678-4a3f-8e88-918e55787380)
+  <section>
+    <h2 style="color: #2c3e50;">Project Objectives</h2>
+    <ol>
+      <li>Explore and clean the dataset to remove any noise or inconsistencies.</li>
+      <li>Analyze the relationships between different variables in the dataset.</li>
+      <li>Conduct a viewership analysis to compare the performance of exclusive and non-exclusive content on the platform.</li>
+      <li>Identify the top-performing categories on Netflix.</li>
+    </ol>
+  </section>
 
-  4. Performed analysis on exclusive content<br>
-  - Count all the exclusive content in each type.<br>
-  - Identify the top 10 TV shows produced by Netflix.<br>
-  - Identify the top 10 movies produced by Netflix.<br>
-  - Identify the top 10 stand-up comedy shows produced by Netflix.<br>
-</p>
+  <hr style="margin: 20px 0;">
 
-<h3>Conclusions</h3>
-<p>
-1. An increase in viewership scores ensures that content ranks in the top 10.<br>
-2. Overall, TV shows on Netflix are much more popular compared to other types of content.<br>
-3. The trend is similar for exclusive and non-exclusive TV shows, which remain popular. Netflix does not host non-exclusive Concerts/Performance or Stand-Up Comedy content on its platform (or this data is missing).<br>
-4. Non-exclusive TV shows perform better than TV shows produced by Netflix.<br>
-5. Netflix hosts more non-exclusive content than exclusive content on its platform.<br>
-6. Among the exclusive content:<br>
-  * TV Show: Ozark <br>
-  * Movie: The Mitchells vs. The Machines<br>
-  * Stand-Up Comedy: Dave Chappelle: The Closer<br>
-  have performed exceptionally well and remained top-seeded for a long time, respectively.
-</p>
+  <section>
+    <h2 style="color: #2c3e50;">Key Analyses Performed</h2>
+    <ul>
+      <li>
+        <strong>Correlation Analysis:</strong> Examined the correlation among variables such as <em>Current Rank</em>, <em>YTD Rank</em>, <em>Last Week Rank</em>, <em>Days in Top 10</em>, and <em>Viewership Score</em>.
+        <div align="center">
+          <img src="https://github.com/user-attachments/assets/abe26b62-95a6-4b72-a38d-3f0e0722608a" alt="Correlation Analysis" style="width: 80%; max-width: 600px; margin: 10px 0;">
+        </div>
+      </li>
+      <li>
+        <strong>Viewership Analysis:</strong> Analyzed average viewership scores:
+        <ul>
+          <li>Overall scores by title type.</li>
+          <li>Exclusive content vs. non-exclusive content.</li>
+        </ul>
+        <div align="center">
+          <img src="https://github.com/user-attachments/assets/580c4475-71e0-410a-848f-cc91189f9b94" alt="Viewership Analysis" style="width: 80%; max-width: 600px; margin: 10px 0;">
+        </div>
+      </li>
+      <li>
+        <strong>Exclusive Content Analysis:</strong> Identified the top-performing Netflix-exclusive content across categories:
+        <ul>
+          <li>Top 10 TV shows</li>
+          <li>Top 10 movies</li>
+          <li>Top 10 stand-up comedy shows</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
+  <hr style="margin: 20px 0;">
 
+  <section>
+    <h2 style="color: #2c3e50;">Conclusions</h2>
+    <ol>
+      <li>Higher viewership scores increase the likelihood of content ranking in the Top 10.</li>
+      <li>TV shows consistently outperform other types of content on Netflix.</li>
+      <li>Both exclusive and non-exclusive TV shows remain highly popular.</li>
+      <li>Non-exclusive TV shows tend to perform better than Netflix-produced TV shows.</li>
+      <li>Netflix hosts more non-exclusive content compared to exclusive content.</li>
+      <li>Among exclusive content, the following titles performed exceptionally well:
+        <ul>
+          <li><strong>TV Show:</strong> Ozark</li>
+          <li><strong>Movie:</strong> The Mitchells vs. The Machines</li>
+          <li><strong>Stand-Up Comedy:</strong> Dave Chappelle: The Closer</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
 
-
-
-
+</body>
+</html>
