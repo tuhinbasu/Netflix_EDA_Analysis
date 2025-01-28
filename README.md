@@ -1,6 +1,6 @@
 <div align = "center"><h2><u>Netflix Top 10: EDA and Analysis</u></h2>
  
-  ![image](https://github.com/user-attachments/assets/4e3e8c2f-dc24-4247-8dc7-a8910418edbc)
+  ![image](https://github.com/user-attachments/assets/57a9cd7b-29b2-4f5a-b557-784ed55d625c)
 
 </div>
 <h3>Project Overview</h3>
